@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /success.html
+Disallow: /404.html
+Disallow: /zohoverify/
+Disallow: /README.md
+Disallow: /static/
+Disallow: /CNAME

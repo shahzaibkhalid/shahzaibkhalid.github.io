@@ -1,0 +1,450 @@
+/* selection rules */
+::selection {
+  background-color: rosybrown;
+  color: white;
+}
+
+/* defining main body styles */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+/* all buttons should act like links */
+button {
+  cursor: pointer;
+}
+
+/* link style for certificates */
+.certificate-link {
+  font-size: 20px;
+  font-weight: 600;
+  color: rosybrown;
+  border-bottom: 5px solid rosybrown;
+  padding: 5px;
+}
+
+.certificate-link:hover {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: rosybrown;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  border-top: 2px solid rosybrown;
+  border-bottom: 5px solid rosybrown;
+}
+
+/* style for showing links as block elements*/
+.blocking-links {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* main heading styling like Summary etc. */
+.heading {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  background-color: rosybrown;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 15px 0;
+}
+
+/* text paragraph styling */
+.text {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 26px;
+  line-height: 35px;
+  background-color: white;
+  color: rosybrown;
+}
+
+/* sub-heading styling */
+.sub-heading {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  background-color: rosybrown;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+  line-height: 140%;
+}
+
+/* styling global links*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* styling tools */
+.tools-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* styling images of tools like React etc. */
+.tools-img {
+  width: 70px;
+  height: 70px;
+}
+
+.tools-img:hover {
+  transform: rotateZ(360deg);
+  transition: transform 1s ease-in-out;
+}
+
+figcaption {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: rosybrown;
+}
+
+/* main top container */
+#top-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+/* main heading (Shahzaib Khalid) */
+#main-heading {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  color: rosybrown;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* title like JavaScript Engineer */
+#title-heading {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  color: rosybrown;
+  margin: 0 20px;
+  line-height: 140%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* styling top-wrapper buttons */
+.main-top-btn,
+.wrapper-btn,
+.form-submit-button {
+  text-transform: capitalize;
+  background-color: rosybrown;
+  padding: 7px 7px;
+  margin: 0 5px;
+  color: #FCFCFC;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  border-radius: 30px;
+  outline: none;
+  border: 3px solid rosybrown;
+  font-weight: 600;
+}
+
+#main-top-btn-group {
+  position: absolute;
+  top: 40px;
+  text-align: center;
+}
+
+#wrapper-btn-group {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* scrollable down arrow*/
+.down-arrow {
+  color: rosybrown;
+  cursor: pointer;
+}
+
+.down-arrow-text {
+  font-size: 19px;
+  text-align: center;
+}
+
+#down-arrow-link {
+  position: absolute;
+  bottom: 20px;
+  display: block;
+}
+
+/* modal styling*/
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow: auto;
+}
+
+.modal-content-area {
+  background-color: white;
+  margin: 5% auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+}
+
+.close-button {
+  cursor: pointer;
+  color: white;
+  background-color: rosybrown;
+  border-radius: 30%;
+  padding: 5px;
+}
+
+/* modal form */
+label {
+  color: rosybrown;
+  display: block;
+  margin: 5px auto;
+}
+
+form input,
+form textarea {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  border: 2px solid rosybrown;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.form-elt {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.form-heading,
+.form-paragraph {
+  color: rosybrown;
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+::-moz-placeholder {
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+:-ms-input-placeholder {
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+:-o-input-placeholder {
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+/* projects container */
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* per project style */
+.project {
+  box-shadow: rgba(46, 61, 73, 0.2) 5px 5px 25px 0px;
+  border-radius: 6px;
+  margin: 30px 0;
+  width: 350px;
+  height: 500px;
+}
+
+.project-img {
+  width: inherit;
+  padding: 0;
+  height: 230px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.project-heading {
+  color: rosybrown;
+  text-align: center;
+  font-size: 32px;
+}
+
+.project-detail {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 140%;
+  min-height: 75px;
+}
+
+.project-link {
+  font-size: 20px;
+  font-weight: 600;
+  color: rosybrown;
+  border-bottom: 5px solid rosybrown;
+  padding: 5px;
+  margin: 5px;
+}
+
+.project-link:hover {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: rosybrown;
+  border-top: 2px solid rosybrown;
+  border-bottom: 5px solid rosybrown;
+}
+
+.centering-project-links {
+  text-align: center;
+}
+
+/* footer styling */
+footer {
+  background-color: rosybrown;
+}
+
+.footer-text {
+  display: block;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 2%;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+/* media queries for responsive design */
+@media only screen and (max-width: 570px) {
+  #main-heading {
+    font-size: 40px;
+  }
+  #title-heading {
+    font-size: 25px;
+  }
+  .main-top-btn,
+  .wrapper-btn {
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  .heading {
+    font-size: 26px;
+  }
+  .text {
+    font-size: 22px;
+  }
+  .project {
+    width: 280px;
+    height: 500px;
+  }
+  .project-heading {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (min-width: 571px) and (max-width: 790px) {
+  #main-heading {
+    font-size: 65px;
+  }
+  #title-heading {
+    font-size: 40px;
+  }
+  .main-top-btn,
+  .wrapper-btn {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 791px) and (max-width: 920px) {
+  #main-heading {
+    font-size: 80px;
+  }
+  #title-heading {
+    font-size: 50px;
+  }
+  .main-top-btn,
+  .wrapper-btn {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 921px) and (max-width: 1345px) {
+  #main-heading {
+    font-size: 130px;
+  }
+  #title-heading {
+    font-size: 60px;
+  }
+  .main-top-btn,
+  .wrapper-btn {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1346px) {
+  #main-heading {
+    font-size: 150px;
+  }
+  #title-heading {
+    font-size: 70px;
+  }
+  .main-top-btn,
+  .wrapper-btn {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-height: 500px) {
+  #main-heading {
+    font-size: 40px;
+  }
+  #title-heading {
+    font-size: 20px;
+  }
+  .main-top-btn,
+  .wrapper-btn {
+    font-size: 12px;
+    font-weight: bolder;
+  }
+  #wrapper-btn-group {
+    margin-top: 30px;
+  }
+  .heading {
+    font-size: 26px;
+  }
+  .text {
+    font-size: 22px;
+  }
+  .project {
+    width: 280px;
+    height: 500px;
+  }
+  .project-heading {
+    font-size: 26px;
+  }
+}

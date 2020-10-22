@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://shahzaibkhalid.com/mern-app-generator/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://shahzaibkhalid.com/modaljs/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://shahzaibkhalid.com/registration-system/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://shahzaibkhalid.com/shaizei-light/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://shahzaibkhalid.com/search-hacker-news/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://shahzaibkhalid.com/productive-pomodoro/</loc>
+
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://shahzaibkhalid.com/instant-weather/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://shahzaibkhalid.com/wikipedia-viewer/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://shahzaibkhalid.com/sassy-clock/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://shahzaibkhalid.com/move-planner/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://shahzaibkhalid.com/electronic-drum-kit/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>

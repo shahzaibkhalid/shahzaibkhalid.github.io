@@ -1,0 +1,79 @@
+::selection {
+    background-color: rosybrown;
+    color: white;
+}
+
+body {
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.success-text {
+    color: rosybrown;
+    font-size: 46px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.check-icon {
+    color: rosybrown;
+    font-size: 46px;
+    margin-top: 100px;
+    text-align: center;
+}
+.confirm-text {
+    font-size: 18px;
+    color: rosybrown;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.button {
+    text-transform: capitalize;
+    background-color: #FCFCFC;
+    padding: 10px 10px;
+    color: rosybrown;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    border-radius: 30px;
+    outline: none;
+    border: 3px solid rosybrown;
+    font-weight: 600;
+}
+.button:hover {
+    text-transform: capitalize;
+    background-color: rosybrown;
+    padding: 10px 10px;
+    color: #FCFCFC;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    border-radius: 30px;
+    outline: none;
+    border: 3px solid rosybrown;
+}
+
+.button:focus {
+    outline:0;
+}
+
+.centering-home-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Tablet Site CSS (greater and equal to 768px) */
+@media screen and (min-width: 768px) {
+    .success-text, .check-icon {
+        font-size: 66px;
+    }
+}
+/*****Desktop Site CSS (greater and equal to 992px)*****/
+@media screen and (min-width: 992px) {
+    .success-text, .check-icon{
+        font-size: 76px;
+    }
+}
+/* Large Desktop Displays Site CSS (greater and equal to 1200px) */
+@media screen and (min-width: 1200px) {
+    .success-text, .check-icon {
+        font-size: 96px;
+    }
+}

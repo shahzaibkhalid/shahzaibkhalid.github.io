@@ -1,0 +1,375 @@
+/* selection for text */
+::selection {
+  color: white;
+  background-color: rosybrown;
+}
+
+/* body main styling */
+html,
+body {
+  margin: 0;
+}
+
+/* article's general styling */
+article {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  margin: 0 7%;
+}
+
+/* main Notes by Shahzaib logo */
+.logo {
+  height: auto;
+  width: 200px;
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+}
+
+/* top nav-bar */
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+/* styling for general nav bar buttons */
+.btn {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  background-color: white;
+  border: 2px solid rosybrown;
+  color: rosybrown;
+  padding: 5px 8px;
+  margin: 10px;
+  font-size: 22px;
+  outline: none;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* main heading for blog post */
+.heading {
+  margin: 30px 0px;
+  font-size: 30px;
+  color: rosybrown;
+  line-height: 140%;
+}
+
+/* date of posted blog */
+.date {
+  text-align: center;
+  font-size: 18px;
+  color: rosybrown;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* divide between blog text and date */
+.divider {
+  width: 40px;
+  height: 8px;
+  background-color: rosybrown;
+}
+
+/* a single text paragraph */
+.paragraph {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 15px 0px;
+}
+
+/* custom styling for lists */
+ul {
+  list-style-type: square;
+}
+
+li {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 18px;
+}
+
+/* blog category, like JavaScript */
+.category {
+  padding: 20px 0;
+}
+
+/* quotations styling for blog */
+blockquote {
+  font-style: italic;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* general top level heading */
+.second-heading,
+.third-heading,
+.fourth-heading,
+.fifth-heading,
+.sixth-heading {
+  color: rosybrown;
+  margin: 35px 0;
+}
+
+/* links withing blog */
+.link:link,
+.link:visited {
+  border-bottom: 1px solid rosybrown;
+  box-shadow: inset 0 -6px 0 rosybrown;
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  background-color: rosybrown;
+}
+
+.link:active {
+  background-color: rosybrown;
+  color: black;
+}
+
+/* styling for any image included in blog */
+figure {
+  margin: 0;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.image {
+  height: auto;
+  max-width: 100%;
+  border-radius: 6px;
+  margin: 25px 0;
+}
+
+/* a container of sharing buttons */
+.share-btns-category-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 30px 0;
+  font-size: 20px;
+}
+
+/* social icons styling */
+.social-icon {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rosybrown;
+  padding: 7px;
+  margin: 3px;
+  width: 1em;
+  line-height: initial !important;
+  text-align: center;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: black;
+}
+
+/* block code styling */
+pre {
+  white-space: pre-wrap;
+  white-space: moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  background: rgba(0, 0, 0, 0.103);
+}
+
+code {
+  color: black;
+  font-size: 18px;
+}
+
+/* highlight code inside block code */
+.highlight-code {
+  background-color: white;
+  color: rosybrown;
+}
+
+/* inline code styling */
+.inline-code {
+  background-color: rgba(0, 0, 0, 0.103);
+  color: black;
+  padding: 5px; 
+}
+
+/* general comments section */
+.comments-section {
+  text-align: center;
+  font-size: 30px;
+  color: rosybrown;
+  font-weight: bold;
+}
+
+/* footer section */
+footer {
+  background-color: rosybrown;
+}
+
+.footer-text {
+  font-family: "Encode Sans Condensed", sans-serif;
+  display: block;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 0;
+  line-height: 150%;
+  width: 100% !important;
+}
+
+/* distinct styling for all heading */
+.second-heading {
+  font-size: 28px;
+}
+
+.third-heading {
+  font-size: 26px;
+}
+
+.fourth-heading {
+  font-size: 24px;
+}
+
+.fifth-heading {
+  font-size: 22px;
+}
+
+.sixth-heading {
+  font-size: 20px;
+}
+
+/* media queries for responsive styling */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .heading {
+    font-size: 35px;
+    margin: 30px 0;
+  }
+  li {
+    font-size: 18px;
+  }
+  .paragraph {
+    font-size: 18px;
+    margin: 15px 0;
+  }
+  article {
+    margin: 0 11%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+  .heading {
+    font-size: 40px;
+    margin: 30px 0;
+  }
+  li {
+    font-size: 20px;
+  }
+  .paragraph {
+    font-size: 20px;
+    margin: 15px 0;
+  }
+  blockquote {
+    font-size: 20px;
+  }
+  article {
+    margin: 0 11%;
+  }
+  .second-heading {
+    font-size: 30px;
+  }
+  .third-heading {
+    font-size: 28px;
+  }
+  .fourth-heading {
+    font-size: 26px;
+  }
+  .fifth-heading {
+    font-size: 24px;
+  }
+  .sixth-heading {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+  .heading {
+    font-size: 45px;
+    margin: 30px 0;
+  }
+  li {
+    font-size: 22px;
+  }
+  .paragraph {
+    font-size: 22px;
+    margin: 15px 0;
+  }
+  blockquote {
+    font-size: 22px;
+  }
+  article {
+    margin: 0 13%;
+  }
+  .second-heading {
+    font-size: 32px;
+  }
+  .third-heading {
+    font-size: 30px;
+  }
+  .fourth-heading {
+    font-size: 28px;
+  }
+  .fifth-heading {
+    font-size: 26px;
+  }
+  .sixth-heading {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .heading {
+    font-size: 50px;
+    margin: 30px 0;
+  }
+  li {
+    font-size: 26px;
+  }
+  .paragraph {
+    font-size: 26px;
+    margin: 15px 0;
+  }
+  blockquote {
+    font-size: 26px;
+  }
+  article {
+    margin: 0 16%;
+  }
+  .second-heading {
+    font-size: 38px;
+  }
+  .third-heading {
+    font-size: 36px;
+  }
+  .fourth-heading {
+    font-size: 34px;
+  }
+  .fifth-heading {
+    font-size: 32px;
+  }
+  .sixth-heading {
+    font-size: 30px;
+  }
+}
